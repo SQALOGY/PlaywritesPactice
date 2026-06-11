@@ -1,0 +1,14 @@
+{
+    "valid_user": {
+        "username": "Admin",
+        "password": "admin123",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "expected_url": "dashboard"
+    },
+    "invalid_user": {
+        "username": "wrong_user",
+        "password": "wrong_pass",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "expected_error": "Invalid credentials"
+    }
+}
